@@ -1,195 +1,408 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
-    <script src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript" async></script>
+  <head>
+    <link
+      href="https://assets.calendly.com/assets/external/widget.css"
+      rel="stylesheet"
+    />
+    <script
+      src="https://assets.calendly.com/assets/external/widget.js"
+      type="text/javascript"
+      async
+    ></script>
 
     <meta name="generator" content="Hugo 0.72.0" />
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
 
     <title>Aman Kumar</title>
-    <meta name="description" content="Aman Kumar personal and professional portfolio.">
-    <meta name="author" content='Aman Kumar'>
+    <meta
+      name="description"
+      content="Aman Kumar personal and professional portfolio."
+    />
+    <meta name="author" content="Aman Kumar" />
 
     <!-- Font and styling links -->
-    <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@400;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
-        crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
-        crossorigin="anonymous">
-    <link rel="stylesheet" href="static/sass/researcher.min.css">
-</head>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="static/sass/researcher.min.css" />
+  </head>
 
-<style>
+  <style>
     /* For a profile image */
-/* For a profile image (img tag) */
-.profile-img {
-    width: 200px; /* Adjust as needed */
-    height: 200px; /* Adjust as needed */
-    border-radius: 50%; /* Makes the image circular */
-    object-fit: cover; /* Ensures the image fills the container */
-    object-position: center top; /* Focuses on the upper center of the image */
-    overflow: hidden; /* Hides any overflow */
-    transform: scale(1.2); /* Zooms into the image (adjust value as needed) */
-}
+    /* For a profile image (img tag) */
+    .profile-img {
+      width: 200px; /* Adjust as needed */
+      height: 200px; /* Adjust as needed */
+      border-radius: 50%; /* Makes the image circular */
+      object-fit: cover; /* Ensures the image fills the container */
+      object-position: center top; /* Focuses on the upper center of the image */
+      overflow: hidden; /* Hides any overflow */
+      transform: scale(1.2); /* Zooms into the image (adjust value as needed) */
+    }
 
-/* For a hero section with a background image (div) */
-.hero-image {
-    width: 100%; /* Full width of the container */
-    height: 400px; /* Adjust height as needed */
-    background-image: url('your-image-path.jpg'); /* Replace with your image URL */
-    background-size: cover; /* Ensures the image covers the container */
-    background-position: center top; /* Focuses on the upper center part */
-    background-repeat: no-repeat;
-    transform: scale(1.2); /* Zoom into the background image */
-    overflow: hidden; /* Ensures no overflow if used in smaller containers */
-}
+    /* For a hero section with a background image (div) */
+    .hero-image {
+      width: 100%; /* Full width of the container */
+      height: 400px; /* Adjust height as needed */
+      background-image: url("your-image-path.jpg"); /* Replace with your image URL */
+      background-size: cover; /* Ensures the image covers the container */
+      background-position: center top; /* Focuses on the upper center part */
+      background-repeat: no-repeat;
+      transform: scale(1.2); /* Zoom into the background image */
+      overflow: hidden; /* Ensures no overflow if used in smaller containers */
+    }
+  </style>
 
-
-</style>
-
-<body>
+  <body>
     <div class="d-flex justify-content-end mr-2 mt-2">
-        <input type="checkbox" class="checkbox" id="checkbox" onchange="document.body.classList.toggle('dark-mode')">
-        <label for="checkbox" class="checkbox-label">
-            <i class="fas fa-moon"></i>
-            <i class="fas fa-sun"></i>
-            <span class="ball"></span>
-        </label>
+      <input
+        type="checkbox"
+        class="checkbox"
+        id="checkbox"
+        onchange="document.body.classList.toggle('dark-mode')"
+      />
+      <label for="checkbox" class="checkbox-label">
+        <i class="fas fa-moon"></i>
+        <i class="fas fa-sun"></i>
+        <span class="ball"></span>
+      </label>
     </div>
     <div class="container mt-5">
-
-        <nav class="navbar navbar-expand-sm flex-column flex-sm-row text-nowrap p-0">
-            <a class="navbar-brand mx-0 mr-sm-auto" href="" title="Aman Kumar">
-                Aman Kumar 
-            </a>
-            <div class="navbar-nav flex-row flex-wrap justify-content-center">
-                <a class="nav-item nav-link" href="pdfs/AmanKumar_full stack_jan.pdf" title="CV">Resume</a>
-            </div>
-        </nav>
-    </div>
-    <hr>
-    <div id="content">
-        <div class="container">
-            <h2 id="about-me">About Me</h2>
-            <figure class="avatar">
-                <img src="static/dp2.jpg" alt="Profile Image" class="profile-img">
-            </figure>
-            <p> 
-                
-                
-                I am a software engineer with a Master’s in Computer Applications from Vellore Institute of Technology. Proficient in Backend Development, my technical expertise includes Python, SQL, Java, and Groovy, along with frameworks like Django, Spring Boot, and Flask. I have hands-on experience with Docker, AWS, and Git, as well as extensive knowledge of MySQL and Oracle databases, including query optimization and performance tuning.<br>
-                Professionally, I have contributed to the success of major projects, such as implementing a Reconciliation product that automated processes for FamPay and AU Bank, significantly improving efficiency and accuracy. I have also led and optimized data pipelines, streamlined workflows, and enhanced SQL procedure performance.<br>
-                
-                Passionate about innovation and problem-solving, I’ve led teams to success at hackathons and consistently delivered high-quality, impactful solutions. My dedication to learning and improvement drives me to explore new tools and technologies, ensuring I stay at the forefront of software development.</p>
-            <h2 id="research-interests">Interests</h2>
-            <ul>
-                <li>Backend Development</li>
-                <li>Database Optimization</li>
-            </ul>
-            <h2 id="technical-skills">Technical Skills</h2>
-            <ul>
-                <li><strong>Languages</strong> - Python, Java, Javascript</li>
-                <li><strong>Web Technologies</strong> - Django, Flask, Django REST Framework</li>
-                <li><strong>Databases</strong> - PostgreSQL, MySQL Server, Oracle DB</li>
-                <li><strong>Dev-Ops</strong> - Docker </li>
-
-            </ul>
-
-            <hr class="dashed">
-
-            <div id="technical-experience">
-                <h2>Technical Experience</h2>
-               
-                <h3>Sotware Engineer</h3>
-                <p><strong>Osfin.ai — Nov 2023 - Oct 2024, Bengluru, India</strong></p>
-                <ul>
-                    <ul>
-                        <li>Led the implementation of a reconciliation product for clients like FamPay and AU Bank, automating UPI, IMPS, and POS reconciliation processes, which reduced processing time by 30% and improved operational efficiency.</li>
-                        <li>Optimized complex SQL procedures, reducing execution time by 40%, and implemented advanced techniques like data bucketing and window functions to ensure accurate and efficient data reconciliation for large datasets.</li>
-                        <li>Designed and deployed ETL pipelines using regex expressions and Groovy scripts, automating reconciliation workflows and reducing manual effort by streamlining data extraction, transformation, and loading processes.</li>
-                        <li>Conducted rigorous testing of new builds to maintain system integrity, ensuring reliable and error-free deployment of reconciliation systems in production environments.</li>
-                        <li>Implemented performance tuning strategies, enhancing database query efficiency and improving overall system responsiveness.</li>
-                    </ul>
-                    
-                </ul>
-            </div>
-
-            <hr class="dashed">
-
-            <div id="projects">
-                <h2>Technical Projects</h2>
-                <h4>TODO, Nov 2024 - Dec 2024</h4>
-                <a href="http://13.201.89.50:8000/login/"><i
-                        class='fas fa-external-link-square-alt' style="margin-right: 10px;"></i></a>
-                <a href="https://github.com/AMANKUMAR22MCA/todo_drf"><i class="fab fa-github"></i></a>
-                <ul>
-                    <li>To-Do List application developed using Django and JavaScript for seamless task management and deadline tracking.</li>
-                    <li>Implemented RESTful APIs with Django REST Framework, enabling secure user authentication using JWT tokens.</li>
-                    <li>Designed a responsive and interactive user interface with Vanilla JavaScript for dynamic task creation, editing, and deletion.</li>
-                    <li>Deployed the application on AWS with the backend running in a Docker container and the frontend served using an Apache Docker container.</li>
-                </ul>
-                
-            
-                <h4>Employee Registration CRUD Web Application, Sep 2024 - Nov 2024</h4>
-                <a href="https://github.com/AMANKUMAR22MCA/Crud-Application-Web-App-With-Django"><i class="fab fa-github"></i></a>
-                <ul>
-                    <li>This full-stack web application allows users to create, read, update, and delete employee data. The backend is built using Django, and the data is stored securely in MySQL.</li>
-                    <li>Implemented RESTful APIs using Django REST Framework for handling employee data operations.</li>
-                    <li>Designed user-friendly and responsive UI using HTML, CSS, and JavaScript to interact with the backend.</li>
-                    <li>Integrated JWT authentication for secure user login and role-based access control to manage employee records.</li>
-                    <li>Utilized Django's class-based views for efficient handling of CRUD operations and easy maintainability.</li>
-                </ul>
-              
-            </div>
-
-            <hr class="dashed">
-
-            <div id="personal-accomplishments">
-                <h2>Personal Accomplishments</h2>
-                <ul>
-                    <li><strong>Best Project Award, Code for Life Hackathon, VIT Vellore</strong> (May 2023) - 
-                        Awarded for creating the best project among more than 100 registered teams and 400+ students.
-                    </li>
-                   
-                
-                    <li><strong>Top Performer, VITMEE MCA Exam</strong> (June 2022) - 
-                        Secured an All India Rank of 67 among 7,000+ candidates.
-                    </li>
-                    <li><strong>Employee Registration CRUD Application, VIT Project</strong> (2024) - 
-                        Successfully developed and deployed a full-stack web application, integrating user-friendly interfaces with scalable backend systems.
-                    </li>
-                    <li><strong>Internship Achievement, Data Analytics at Osfin.ai</strong> (2023-2024) - 
-                        Optimized SQL procedures, reducing execution time by 40%, and automated reconciliation processes using Groovy scripts and regex.
-                    </li>
-                    <li><strong>Advanced Data Analytics Certification, Trainity</strong> (2024) - 
-                        Gained expertise in advanced Excel, MySQL, and data analytics techniques, including data cleaning, visualization, and actionable insights.
-                    </li>
-                </ul>
-                
-            </div>
-
-            <h2 id="contact">Contact</h2>
-            <div>
-                <a href="mailto:amanraj241800@gmail.com" class="mr-2"><i class="fas fa-envelope"></i> E-mail</a>
-                <a href="https://www.linkedin.com/in/aman-kumar-6506a0245/" class="mr-2"><i class="fab fa-linkedin"></i>
-                    LinkedIn</a>
-                <a href="https://github.com/AMANKUMAR22MCA" class="mr-2"><i class="fab fa-github"></i> Github</a>
-            </div>
+      <nav
+        class="navbar navbar-expand-sm flex-column flex-sm-row text-nowrap p-0"
+      >
+        <a class="navbar-brand mx-0 mr-sm-auto" href="" title="Aman Kumar">
+          Aman Kumar
+        </a>
+        <div class="navbar-nav flex-row flex-wrap justify-content-center">
+          <a
+            class="nav-item nav-link"
+            href="pdfs/Aman Kumar Full Stack(1).pdf"
+            title="CV"
+            >Resume</a
+          >
         </div>
+      </nav>
+    </div>
+    <hr />
+    <div id="content">
+      <div class="container">
+        <h2 id="about-me">About Me</h2>
+        <figure class="avatar">
+          <img src="static/dp2.jpg" alt="Profile Image" class="profile-img" />
+        </figure>
+        <p>
+          I am a software engineer with a Master’s in Computer Applications from
+          Vellore Institute of Technology. Proficient in Backend Development, my
+          technical expertise includes Python, SQL, Java, and Groovy, along with
+          frameworks like Django, Spring Boot, and Flask. I have hands-on
+          experience with Docker, AWS, and Git, as well as extensive knowledge
+          of MySQL and Oracle databases, including query optimization and
+          performance tuning.<br />
+          Professionally, I have contributed to the success of major projects,
+          such as implementing a Reconciliation product that automated processes
+          for FamPay and AU Bank, significantly improving efficiency and
+          accuracy. I have also led and optimized data pipelines, streamlined
+          workflows, and enhanced SQL procedure performance.<br />
+
+          Passionate about innovation and problem-solving, I’ve led teams to
+          success at hackathons and consistently delivered high-quality,
+          impactful solutions. My dedication to learning and improvement drives
+          me to explore new tools and technologies, ensuring I stay at the
+          forefront of software development.
+        </p>
+        <h2 id="research-interests">Interests</h2>
+        <ul>
+          <li>Backend Development</li>
+          <li>Database Optimization</li>
+        </ul>
+        <h2 id="technical-skills">Technical Skills</h2>
+        <ul>
+          <li><strong>Languages</strong> - Python, Java, Javascript</li>
+          <li>
+            <strong>Web Technologies</strong> - Django, Flask, Django REST
+            Framework
+          </li>
+          <li>
+            <strong>Databases</strong> - PostgreSQL, MySQL Server, Oracle DB
+          </li>
+          <li><strong>Dev-Ops</strong> - Docker</li>
+        </ul>
+
+        <hr class="dashed" />
+
+        <div id="technical-experience">
+          <h2>Technical Experience</h2>
+
+          <h3>Associate Software Engineer I</h3>
+          <p>
+            <strong
+              >Synoriq — Nov 2024 - Present, Jaipur, India (In-Office)</strong
+            >
+          </p>
+          <ul>
+            <li>
+              Optimized PostgreSQL queries for LOS and LMS systems by
+              eliminating redundant joins and CTEs, significantly improving data
+              retrieval performance.
+            </li>
+            <li>
+              Implemented efficient indexing strategies and collaborated with
+              developers to integrate optimized queries into Java applications,
+              enhancing responsiveness.
+            </li>
+            <li>
+              Utilized Git for streamlined version control and collaborative
+              development across teams.
+            </li>
+            <li>
+              Actively participated in client interactions to gather
+              requirements, clarify expectations, and deliver solution-oriented
+              outcomes.
+            </li>
+            <li>
+              Took ownership of modules and proactively solved performance
+              issues, showcasing a strong problem-solving mindset and
+              accountability.
+            </li>
+          </ul>
+
+          <h3>Software Engineer</h3>
+          <p>
+            <strong>Osfin.ai — Nov 2023 - Oct 2024, Bengaluru, India</strong>
+          </p>
+          <ul>
+            <li>
+              Led the implementation of a reconciliation product for clients
+              like FamPay and AU Bank, automating UPI, IMPS, and POS processes,
+              reducing processing time by 30%.
+            </li>
+            <li>
+              Optimized complex SQL procedures by 40% using data bucketing,
+              window functions, and performance tuning techniques to handle
+              large-scale reconciliation datasets.
+            </li>
+            <li>
+              Built and deployed ETL pipelines with regex and Groovy scripts,
+              automating workflows and minimizing manual effort.
+            </li>
+            <li>
+              Conducted comprehensive testing of new builds to ensure
+              reliability and seamless production deployment.
+            </li>
+            <li>
+              Improved system performance and responsiveness through strategic
+              database tuning and optimization practices.
+            </li>
+          </ul>
+        </div>
+
+        <hr class="dashed" />
+
+        <div id="projects">
+          <h2>Technical Projects</h2>
+
+          <h4>Unix-Inspired Task Manager, May 2025</h4>
+          <a href="http://34.100.160.93:5600/index.html"
+            ><i
+              class="fas fa-external-link-square-alt"
+              style="margin-right: 10px"
+            ></i
+          ></a>
+          <a href="https://github.com/AMANKUMAR22MCA/unixtaskmanager"
+            ><i class="fab fa-github"></i
+          ></a>
+          <ul>
+            <li>
+              Built a full-stack web application inspired by Unix-style task
+              lifecycle using Django and vanilla HTML/CSS/JS.
+            </li>
+            <li>
+              Implemented JWT-based authentication, task states (pending,
+              running, completed, failed), and simulated concurrency.
+            </li>
+            <li>
+              Added task filtering, pagination, and deployed with Docker on
+              Google Cloud.
+            </li>
+          </ul>
+
+          <h4>E-commerce Platform (Full-Stack), May 2025</h4>
+          <a href="https://github.com/AMANKUMAR22MCA/ecommerce"
+            ><i class="fab fa-github"></i
+          ></a>
+          <ul>
+            <li>
+              Built a full-stack e-commerce web application using Django and
+              React with complete user auth and cart management.
+            </li>
+            <li>
+              Integrated payment gateway (Razorpay), product filtering, and
+              order tracking functionalities.
+            </li>
+            <li>
+              Used PostgreSQL for relational data and Docker for containerized
+              deployment.
+            </li>
+          </ul>
+
+          <h4>React Native Task Manager, Apr 2025</h4>
+          <a
+            href="https://github.com/AMANKUMAR22MCA/taskMangerApp-React-Native-Expo-"
+            ><i class="fab fa-github"></i
+          ></a>
+          <ul>
+            <li>
+              Developed a mobile task manager using React Native and Django
+              backend with JWT authentication.
+            </li>
+            <li>
+              Used Expo for cross-platform support and Docker for backend
+              deployment.
+            </li>
+          </ul>
+
+          <h4>Grocery Ordering System API, Mar 2025</h4>
+
+          <a href="https://github.com/AMANKUMAR22MCA/GroceryOrderAPI"
+            ><i class="fab fa-github"></i
+          ></a>
+          <ul>
+            <li>
+              Developed a scalable backend using FastAPI and SQLAlchemy for
+              product catalog and order management.
+            </li>
+            <li>
+              Implemented modular service layers with MySQL, using clean code
+              and REST principles.
+            </li>
+          </ul>
+
+          <h4>Google APIs & Real-Time Chat System, Dec 2024 - Jan 2025</h4>
+          <a href="https://github.com/AMANKUMAR22MCA/GoogleAPI-ChatSystem"
+            ><i class="fab fa-github"></i
+          ></a>
+          <ul>
+            <li>
+              Created a real-time chat platform using Django Channels,
+              WebSockets, and PostgreSQL (Aiven).
+            </li>
+            <li>
+              Integrated Google OAuth and Drive Picker API for login and file
+              uploads.
+            </li>
+            <li>
+              Deployed on Google Cloud Run with persistent message history and
+              JWT authentication.
+            </li>
+          </ul>
+
+          <h4>Notes App, Dec 2024 - Jan 2025</h4>
+          <a href="https://github.com/AMANKUMAR22MCA/mynotes-dockerized"
+            ><i class="fab fa-github"></i
+          ></a>
+          <ul>
+            <li>
+              Full-stack CRUD app using React frontend and Django REST backend
+              with PostgreSQL.
+            </li>
+            <li>
+              Dockerized with Nginx and Gunicorn, enabling seamless deployment.
+            </li>
+          </ul>
+        </div>
+
+        <hr class="dashed" />
+
+        <div id="personal-accomplishments">
+          <h2>Personal Accomplishments</h2>
+          <ul>
+            <li>
+              <strong
+                >Best Project Award, Code for Life Hackathon, VIT
+                Vellore</strong
+              >
+              (May 2023) - Awarded for creating the best project among more than
+              100 registered teams and 400+ students.
+            </li>
+
+            <li>
+              <strong>Top Performer, VITMEE MCA Exam</strong> (June 2022) -
+              Secured an All India Rank of 67 among 7,000+ candidates.
+            </li>
+            <li>
+              <strong
+                >Employee Registration CRUD Application, VIT Project</strong
+              >
+              (2024) - Successfully developed and deployed a full-stack web
+              application, integrating user-friendly interfaces with scalable
+              backend systems.
+            </li>
+            <li>
+              <strong
+                >Internship Achievement, Data Analytics at Osfin.ai</strong
+              >
+              (2023-2024) - Optimized SQL procedures, reducing execution time by
+              40%, and automated reconciliation processes using Groovy scripts
+              and regex.
+            </li>
+            <li>
+              <strong>Advanced Data Analytics Certification, Trainity</strong>
+              (2024) - Gained expertise in advanced Excel, MySQL, and data
+              analytics techniques, including data cleaning, visualization, and
+              actionable insights.
+            </li>
+          </ul>
+        </div>
+
+        <h2 id="contact">Contact</h2>
+        <div>
+          <a href="mailto:amanraj241800@gmail.com" class="mr-2"
+            ><i class="fas fa-envelope"></i> E-mail</a
+          >
+          <a
+            href="https://www.linkedin.com/in/aman-kumar-6506a0245/"
+            class="mr-2"
+            ><i class="fab fa-linkedin"></i> LinkedIn</a
+          >
+          <a href="https://github.com/AMANKUMAR22MCA" class="mr-2"
+            ><i class="fab fa-github"></i> Github</a
+          >
+        </div>
+      </div>
     </div>
     <div id="footer" class="mb-5">
-        <hr>
-        <div class="container text-center">
-            <a href="mailto:amanraj241800@gmail.com" class="fas fa-envelope fa-1x" title="E-mail"></a>
-        </div>
-        <div class="container text-center">
-            <a href="https://github.com/ojroques/hugo-researcher" title="Built with Hugo"><small>Built with
-                    Hugo</small></a>
-        </div>
+      <hr />
+      <div class="container text-center">
+        <a
+          href="mailto:amanraj241800@gmail.com"
+          class="fas fa-envelope fa-1x"
+          title="E-mail"
+        ></a>
+      </div>
+      <div class="container text-center">
+        <a
+          href="https://github.com/ojroques/hugo-researcher"
+          title="Built with Hugo"
+          ><small>Built with Hugo</small></a
+        >
+      </div>
     </div>
-</body>
-
+  </body>
 </html>
